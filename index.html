@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#16794b">
+  <title>ذاتی مالیاتی ریکارڈ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <section id="loading-screen" class="loading-screen" aria-live="polite">
+      <h1>ذاتی مالیاتی ریکارڈ</h1>
+      <p>سسٹم لوڈ ہو رہا ہے...</p>
+    </section>
+  </div>
+
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <dialog id="confirm-dialog" class="dialog">
+    <form method="dialog" class="dialog-card">
+      <h2 id="confirm-title">تصدیق</h2>
+      <p id="confirm-message"></p>
+      <div class="dialog-actions">
+        <button class="btn btn-secondary" value="cancel">واپس</button>
+        <button id="confirm-accept" class="btn btn-danger" value="ok">تصدیق کریں</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
