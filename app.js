@@ -24,7 +24,7 @@
   "use strict";
 
   // Replace this value with the deployed Google Apps Script Web App URL when backend is ready.
-  let API_URL = window.__PFTS_API_URL || "https://script.google.com/macros/s/AKfycbxSEbnCpuxFxKaFpibsHaOMYGwd9fw7z6aJOldtGNLI4HfWuIIZcXEDfgTKXRws32jb/exec";
+  let API_URL = window.__PFTS_API_URL || "https://1script.google.com/macros/s/AKfycbxSEbnCpuxFxKaFpibsHaOMYGwd9fw7z6aJOldtGNLI4HfWuIIZcXEDfgTKXRws32jb/exec";
   const APP_NAME = "ذاتی مالیاتی ریکارڈ";
 
   const state = {
